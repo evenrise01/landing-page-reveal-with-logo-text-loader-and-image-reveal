@@ -27,12 +27,12 @@ export const projectsData = [
     {
       name: "Parallel Skies",
       director: "Hiro Tanaka",
-      location: "Tokyo, JP",
+      location: "Tokyo, Japan",
     },
     {
       name: "Glasshouse Project",
       director: "Chloe Martin",
-      location: "Paris, FR",
+      location: "Paris, France",
     },
     {
       name: "Horizon Line",
@@ -42,7 +42,7 @@ export const projectsData = [
     {
       name: "Neon Haven",
       director: "Sofia Alvarez",
-      location: "Mexico City, MX",
+      location: "Mexico City, Mexico",
     },
     {
       name: "Fragmented Light",
@@ -62,42 +62,42 @@ export const projectsData = [
     {
       name: "Static Bloom",
       director: "Iris Fontaine",
-      location: "Montreal, QC",
+      location: "Montreal, Canada",
     },
     {
       name: "Golden Hour",
       director: "Ravi Kapoor",
-      location: "Mumbai, IN",
+      location: "Mumbai, India",
     },
     {
       name: "Afterimage",
       director: "Elena Russo",
-      location: "Rome, IT",
+      location: "Rome, Italy",
     },
     {
       name: "Phantom Signals",
       director: "Kai Müller",
-      location: "Zurich, CH",
+      location: "Zurich, Switzerland",
     },
     {
       name: "Deep Current",
       director: "Lena Torres",
-      location: "Lisbon, PT",
+      location: "New Delhi, India",
     },
     {
       name: "Silent Division",
       director: "Caleb Wright",
-      location: "Chicago, IL",
+      location: "Chicago, Illinois",
     },
     {
       name: "Mirror Loop",
       director: "Sienna Brooks",
-      location: "Melbourne, AU",
+      location: "Melbourne, Australia",
     },
     {
       name: "Dream Archive",
       director: "Oliver Kim",
-      location: "Seoul, KR",
+      location: "Seoul, South Korea",
     },
   ];
   
