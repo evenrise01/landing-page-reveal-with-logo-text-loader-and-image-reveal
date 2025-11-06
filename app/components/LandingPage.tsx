@@ -1,4 +1,7 @@
+'use client'
 import React from "react";
+import "./styles.css"
+
 
 const LandingPage = () => {
   return (
@@ -14,7 +17,7 @@ const LandingPage = () => {
           <h1 className="logo-line-1">Daksh</h1>
           <h1 className="logo-line-2">Singh</h1>
         </div>
-        <div className="location">
+        <div className="locations">
           <div className="locations-header">
             <p>Location</p>
           </div>
