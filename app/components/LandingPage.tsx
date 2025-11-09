@@ -28,10 +28,7 @@ const LandingPage = () => {
       type: "words",
     });
 
-    const allImageSources = Array.from({ length: 35 }, (_, i) => {
-      const index = i + 1;
-      return [`/img-${index}.png`, `/img-${index}.jpg`];
-    }).flat();
+    const allImageSources = Array.from({ length: 35 }, (_, i) => `/img-${i+1}.webp`)
 
     const getRandomImageSet = () => {
       const shuffled = [...allImageSources].sort(() => 0.5 - Math.random());
@@ -82,7 +79,7 @@ const LandingPage = () => {
                 const imgElement = img.querySelector("img");
 
                 if (cycle === totalCycles - 1 && img === heroImage) {
-                  imgElement.src = "/img-8.png";
+                  imgElement.src = "/img-8.webp";
 
                   gsap.set(".hero-img img", { scale: 2 });
                 } else {
@@ -288,35 +285,35 @@ const LandingPage = () => {
       <div className="image-grid">
         <div className="grid-row">
           <div className="img">
-            <img src="/img-1.png" alt="" />
+            <img src="/img-1.webp" alt="" />
           </div>
           <div className="img">
-            <img src="/img-2.png" alt="" />
+            <img src="/img-2.webp" alt="" />
           </div>
           <div className="img">
-            <img src="/img-3.png" alt="" />
+            <img src="/img-3.webp" alt="" />
           </div>
         </div>
         <div className="grid-row">
           <div className="img">
-            <img src="/img-4.png" alt="" />
+            <img src="/img-4.webp" alt="" />
           </div>
           <div className="img hero-img">
-            <img src="/img-5.png" alt="" />
+            <img src="/img-5.webp" alt="" />
           </div>
           <div className="img">
-            <img src="/img-6.png" alt="" />
+            <img src="/img-6.webp" alt="" />
           </div>
         </div>
         <div className="grid-row">
           <div className="img">
-            <img src="/img-7.png" alt="" />
+            <img src="/img-7.webp" alt="" />
           </div>
           <div className="img">
-            <img src="/img-8.png" alt="" />
+            <img src="/img-8.webp" alt="" />
           </div>
           <div className="img">
-            <img src="/img-9.png" alt="" />
+            <img src="/img-9.webp" alt="" />
           </div>
         </div>
       </div>
@@ -340,10 +337,10 @@ const LandingPage = () => {
       </nav>
 
       <div className="banner-img banner-img-1">
-        <img src="/img-7.png" alt="" />
+        <img src="/img-7.webp" alt="" />
       </div>
       <div className="banner-img banner-img-2">
-        <img src="/img-10.png" alt="" />
+        <img src="/img-10.webp" alt="" />
       </div>
 
       {/* Change according to your design */}
